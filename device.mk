@@ -7,10 +7,6 @@
 # Inherit from mt6895-common
 $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio
-
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
