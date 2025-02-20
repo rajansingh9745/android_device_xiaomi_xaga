@@ -37,3 +37,14 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # Inherit the proprietary files
 include vendor/xiaomi/xaga/BoardConfigVendor.mk
+
+#Flags
+INFINITY_MAINTAINER := "Rajan Singh"
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+USE_MOTO_CALCULATOR := true
+ro.infinity.soc=Mediatek Dimensity 8100 max
+ro.infinity.battery=5080 mAh
+ro.infinity.display=1080 x 2460, 144 Hz
+ro.infinity.camera=64MP + 8MP + 2MP
